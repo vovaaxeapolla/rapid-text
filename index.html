@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="shortcut icon" href="icons/icon.png" type="image/png">
+    <title>Typing test</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__wrapper">
+                <a href="index.html" class="logo">TYPING TEST</a>
+                <nav></nav>
+                <input type="checkbox"  id="color-mode-toggle">
+                <label for="color-mode-toggle" class="color-mode-toggle"></label>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="typing-test__container">
+            <div class="word__container">
+                <div class="word__wrapper"></div>
+            </div>
+            <div class="input__wrapper">
+                <input type="text" name="word--input" spellcheck="false" autocorrect="off" placeholder="Начните ввод">
+                <div class="timer">1:00</div>
+                <button class="btn reset"><i class="icon-reset"></i></button>
+            </div>
+        </div>
+        <div class="keyboard__container">
+            <div class="keyboard__row">
+                <div class="key Backquote"></div>
+                <div class="key Digit1"></div>
+                <div class="key Digit2"></div>
+                <div class="key Digit3"></div>
+                <div class="key Digit4"></div>
+                <div class="key Digit5"></div>
+                <div class="key Digit6"></div>
+                <div class="key Digit7"></div>
+                <div class="key Digit8"></div>
+                <div class="key Digit9"></div>
+                <div class="key Digit0"></div>
+                <div class="key Minus"></div>
+                <div class="key Equal"></div>
+                <div class="key Backspace"></div>
+            </div>
+            <div class="keyboard__row">
+                <div class="key Tab"></div>
+                <div class="key KeyQ"></div>
+                <div class="key KeyW"></div>
+                <div class="key KeyE"></div>
+                <div class="key KeyR"></div>
+                <div class="key KeyT"></div>
+                <div class="key KeyY"></div>
+                <div class="key KeyU"></div>
+                <div class="key KeyI"></div>
+                <div class="key KeyO"></div>
+                <div class="key KeyP"></div>
+                <div class="key BracketLeft"></div>
+                <div class="key BracketRight"></div>
+                <div class="key Enter"></div>
+            </div>
+            <div class="keyboard__row">
+                <div class="key CapsLock"></div>
+                <div class="key KeyA"></div>
+                <div class="key KeyS"></div>
+                <div class="key KeyD"></div>
+                <div class="key KeyF"></div>
+                <div class="key KeyG"></div>
+                <div class="key KeyH"></div>
+                <div class="key KeyJ"></div>
+                <div class="key KeyK"></div>
+                <div class="key KeyL"></div>
+                <div class="key Semicolon"></div>
+                <div class="key Quote"></div>
+                <div class="key Backslash"></div>
+            </div>
+            <div class="keyboard__row">
+                <div class="key ShiftLeft"></div>
+                <div class="key KeyZ"></div>
+                <div class="key KeyX"></div>
+                <div class="key KeyC"></div>
+                <div class="key KeyV"></div>
+                <div class="key KeyB"></div>
+                <div class="key KeyN"></div>
+                <div class="key KeyM"></div>
+                <div class="key Comma"></div>
+                <div class="key Period"></div>
+                <div class="key Slash"></div>
+                <div class="key ShiftRight"></div>
+            </div>
+            <div class="keyboard__row">
+                <div class="key ControlLeft"></div>
+                <div class="key MetaLeft"></div>
+                <div class="key AltLeft"></div>
+                <div class="key Space"></div>
+                <div class="key AltRight"></div>
+                <div class="key MetaRight"></div>
+                <div class="key ContextMenu"></div>
+                <div class="key ControlRight"></div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="left-menu__container active--left-menu">
+            <div class="open--btn btn"></div>
+            <div class="left-menu-wrapper">
+                <div class="left-menu-title">Billy Herrington</div>
+                <img class="billie" src="img/billie.png" alt="Actor Billie Herrington" width="80%" height="80%">
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="footer__container">
+            <div class="footer-wrapper">
+                Created by <a href="https://github.com/vovaaxeapolla" target="_blank">@vovaaxeapolla</a>
+            </div>
+        </div>
+    </footer>
+    <div class="finish-popup">
+        <div class="title--popup">Статистика попытки</div>
+        <div class="try-stats"></div>
+        <button class="close--btn btn"></button>
+    </div>
+    <script src="js/js.js"></script>
+    <script src="js/keyboard-bg.js"></script>
+
+</body>
+
+</html>
