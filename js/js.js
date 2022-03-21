@@ -5045,6 +5045,7 @@ resetButton.addEventListener('click', () => {
 });
 
 wordinput.addEventListener('input', (e) => {
+    e.preventDefault();
     //действия при окончание таймера
     if (!timerIsOn) {
         timerIsOn = true;
